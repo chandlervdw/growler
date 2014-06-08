@@ -1,0 +1,64 @@
+{
+  "name": "Community Tap",
+  "count": 17,
+  "frequency": "realtime",
+  "version": 1,
+  "newdata": false,
+  "lastrunstatus": "success",
+  "lastsuccess": "Sun Jun 08 2014 18:28:17 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "BeerName": "Westbrook Mexican Cake Imperial Stout"
+      },
+      {
+        "BeerName": "Bell's Oberon Ale"
+      },
+      {
+        "BeerName": "Coast Boy King Imperial IPA"
+      },
+      {
+        "BeerName": "Bell's Two Hearted Ale"
+      },
+      {
+        "BeerName": "Coast 32/50 Kölsch"
+      },
+      {
+        "BeerName": "The Community Tap Trifecta IPA"
+      },
+      {
+        "BeerName": "Founders Porter"
+      },
+      {
+        "BeerName": "Anderson Valley Horse Tongue Wheat (Biere de Garde Aged in White Wine Barrels)"
+      },
+      {
+        "BeerName": "Founders Rübæus"
+      },
+      {
+        "BeerName": "Brewery 85 Quittin' Time Bock"
+      },
+      {
+        "BeerName": "Quest Nitro Milk Stout"
+      },
+      {
+        "BeerName": "Palmetto Pale Ale"
+      },
+      {
+        "BeerName": "Stone Smoked Porter w/ Chipotle Peppers"
+      },
+      {
+        "BeerName": "Westbrook /Stillwater Artisanal Ales Big Tasty's Back Door Remix"
+      },
+      {
+        "BeerName": "Grand Teton Splashdown Golden Ale"
+      },
+      {
+        "BeerName": "Great Divide Oak-Aged Yeti (2010)"
+      },
+      {
+        "BeerName": "Anchor Steam Beer"
+      }
+    ]
+  }
+}
