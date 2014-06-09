@@ -62,7 +62,6 @@ class BusinessTableViewController: UITableViewController {
         if (Business.count > 0) {
             let count = "\(Business.count)"
             view.titleLabel.text = (biz["name"] as String).uppercaseString
-            view.countLabel.text = count
         }
         return view
     }
