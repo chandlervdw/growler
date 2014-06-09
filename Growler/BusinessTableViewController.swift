@@ -12,11 +12,12 @@ class BusinessTableViewController: UITableViewController {
     
     var data: NSMutableData = NSMutableData()
     var tableData: NSArray = NSArray()
+
     
-    @lazy var Business: NSArray = {
+    @lazy var Business: NSDictionary = {
         let pathTCT = NSBundle.mainBundle().pathForResource("TCT", ofType: "json")
         let data = NSData.dataWithContentsOfFile(pathTCT, options: nil, error: nil)
-        return NSJSONSerialization.JSONObjectWithData(data, options: nil, error: nil) as NSArray
+        return NSJSONSerialization.JSONObjectWithData(data, options: nil, error: nil) as NSDictionary
         }()
     
     override func viewDidLoad() {
@@ -36,17 +37,15 @@ class BusinessTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView?, numberOfRowsInSection section: Int) -> Int {
-        let biz = Business[section] as NSDictionary
-        let results = biz["results"] as NSDictionary
-        let beers = results["collection1"] as NSArray
+        let results: NSDictionary = Business["results"] as NSDictionary
+        let beers: NSArray = results["collection1"] as NSArray
         return beers.count
     }
     
     override func tableView(tableView: UITableView?, cellForRowAtIndexPath indexPath: NSIndexPath?) -> UITableViewCell? {
         let cell = tableView!.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath!) as BeerTableViewCell
         if let path = indexPath {
-            let biz = Business[path.section] as NSDictionary
-            let results = biz["results"] as NSDictionary
+            let results = Business["results"] as NSDictionary
             let beers = results["collection1"] as NSArray
             let beer = beers[path.row] as NSDictionary
             
@@ -57,14 +56,12 @@ class BusinessTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView!, titleForHeaderInSection section: Int) -> String! {
-        let biz = Business[section] as NSDictionary
-        return biz["name"] as String
+        return Business["name"] as String
     }
     
     override func tableView(tableView: UITableView!, viewForHeaderInSection section: Int) -> UIView! {
-        let biz = Business[section] as NSDictionary
         let view = LocationHeaderView()
-        view.titleLabel.text = (biz["name"] as String).uppercaseString
+        view.titleLabel.text = (Business["name"] as String).uppercaseString
         return view
     }
     
@@ -73,8 +70,12 @@ class BusinessTableViewController: UITableViewController {
     }
     
     func fetchKimono() {
+        // TCT
 //        var urlPath = "http://www.kimonolabs.com/api/dt5auhf6?apikey=562e9e01b62e204058a2be0c50b12b68"
-        var urlPath = "http://www.kimonolabs.com/api/9hyu7lv6?apikey=562e9e01b62e204058a2be0c50b12b68"
+        // combined
+//        var urlPath = "http://www.kimonolabs.com/api/9hyu7lv6?apikey=562e9e01b62e204058a2be0c50b12b68"
+        // Growler Station
+        var urlPath = "http://www.kimonolabs.com/api/8qtnxwk4?apikey=562e9e01b62e204058a2be0c50b12b68"
         var url: NSURL = NSURL(string: urlPath)
         var request: NSURLRequest = NSURLRequest(URL: url)
         var connection: NSURLConnection = NSURLConnection(request: request, delegate: self, startImmediately: false)
@@ -100,11 +101,8 @@ class BusinessTableViewController: UITableViewController {
         var results: NSDictionary = jsonResult["results"] as NSDictionary
         var collection: NSArray = results["collection1"] as NSArray
         if jsonResult.count>0 && collection.count>0 {
-            var results: NSArray = collection as NSArray
-            self.tableData = results
-            self.tableView.reloadData()
+            Business = jsonResult
+            tableView.reloadData()
         }
     }
-    
-
 }
