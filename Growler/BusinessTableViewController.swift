@@ -11,8 +11,6 @@ import UIKit
 class BusinessTableViewController: UITableViewController {
     
     var data: NSMutableData = NSMutableData()
-    var tableData: NSArray = NSArray()
-
     
     @lazy var Business: NSDictionary = {
         let pathTCT = NSBundle.mainBundle().pathForResource("TCT", ofType: "json")
@@ -70,9 +68,8 @@ class BusinessTableViewController: UITableViewController {
     }
     
     func fetchKimono() {
-        // TCT
 //        var urlPath = "http://www.kimonolabs.com/api/dt5auhf6?apikey=562e9e01b62e204058a2be0c50b12b68"
-        // combined
+        
 //        var urlPath = "http://www.kimonolabs.com/api/9hyu7lv6?apikey=562e9e01b62e204058a2be0c50b12b68"
         // Growler Station
         var urlPath = "http://www.kimonolabs.com/api/8qtnxwk4?apikey=562e9e01b62e204058a2be0c50b12b68"
@@ -101,7 +98,7 @@ class BusinessTableViewController: UITableViewController {
         var results: NSDictionary = jsonResult["results"] as NSDictionary
         var collection: NSArray = results["collection1"] as NSArray
         if jsonResult.count>0 && collection.count>0 {
-            Business = jsonResult
+            self.Business = jsonResult
             tableView.reloadData()
         }
     }
