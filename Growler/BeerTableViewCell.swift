@@ -60,7 +60,7 @@ class BeerTableViewCell: UITableViewCell {
         contentView.addSubview(circleView)
         
         let views = [
-            "timeLabel": timeLabel,
+//            "timeLabel": timeLabel,
             "titleLabel": titleLabel,
             "lineView": lineView,
             "circleView": circleView
@@ -72,7 +72,7 @@ class BeerTableViewCell: UITableViewCell {
             "lineMargin": 14
         ]
         
-        contentView.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("|-(leftMargin)-[timeLabel(80)]-(lineMargin)-[lineView(2)]-(lineMargin)-[titleLabel]-|", options: nil, metrics: metrics, views: views))
+        contentView.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("|-(leftMargin)-[lineView(2)]-(lineMargin)-[titleLabel]-|", options: nil, metrics: metrics, views: views))
         contentView.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|-(margin)-[titleLabel]-(margin)-|", options: nil, metrics: metrics, views: views))
         contentView.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|[lineView]|", options: nil, metrics: metrics, views: views))
         contentView.addConstraint(NSLayoutConstraint(item: titleLabel, attribute: .CenterY, relatedBy: .Equal, toItem: timeLabel, attribute: .CenterY, multiplier: 1, constant: 0))

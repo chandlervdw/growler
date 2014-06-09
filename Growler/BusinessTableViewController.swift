@@ -10,6 +10,9 @@ import UIKit
 
 class BusinessTableViewController: UITableViewController {
     
+    var data: NSMutableData = NSMutableData()
+    var tableData: NSArray = NSArray()
+    
     @lazy var Business: NSArray = {
         let pathTCT = NSBundle.mainBundle().pathForResource("TCT", ofType: "json")
         let data = NSData.dataWithContentsOfFile(pathTCT, options: nil, error: nil)
@@ -23,6 +26,8 @@ class BusinessTableViewController: UITableViewController {
         
         tableView.registerClass(BeerTableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.separatorStyle = .None
+        
+        fetchKimono()
     }
     
     override func numberOfSectionsInTableView(tableView: UITableView!) -> Int {
@@ -66,4 +71,40 @@ class BusinessTableViewController: UITableViewController {
     override func tableView(tableView: UITableView!, heightForHeaderInSection section: Int) -> CGFloat {
         return 45
     }
+    
+    func fetchKimono() {
+//        var urlPath = "http://www.kimonolabs.com/api/dt5auhf6?apikey=562e9e01b62e204058a2be0c50b12b68"
+        var urlPath = "http://www.kimonolabs.com/api/9hyu7lv6?apikey=562e9e01b62e204058a2be0c50b12b68"
+        var url: NSURL = NSURL(string: urlPath)
+        var request: NSURLRequest = NSURLRequest(URL: url)
+        var connection: NSURLConnection = NSURLConnection(request: request, delegate: self, startImmediately: false)
+        
+        connection.start()
+    }
+    
+    func connection(didReceiveResponse: NSURLConnection!, didReceiveResponse response: NSURLResponse!) {
+        // Recieved a new request, clear out the data object
+        self.data = NSMutableData()
+    }
+    
+    func connection(connection: NSURLConnection!, didReceiveData data: NSData!) {
+        // Append the recieved chunk of data to our data object
+        self.data.appendData(data)
+    }
+    
+    func connectionDidFinishLoading(connection: NSURLConnection!) {
+        // Request complete, self.data should now hold the resulting info
+        // Convert the retrieved data in to an object through JSON deserialization
+        var err: NSError
+        var jsonResult: NSDictionary = NSJSONSerialization.JSONObjectWithData(data, options:    NSJSONReadingOptions.MutableContainers, error: nil) as NSDictionary
+        var results: NSDictionary = jsonResult["results"] as NSDictionary
+        var collection: NSArray = results["collection1"] as NSArray
+        if jsonResult.count>0 && collection.count>0 {
+            var results: NSArray = collection as NSArray
+            self.tableData = results
+            self.tableView.reloadData()
+        }
+    }
+    
+
 }
