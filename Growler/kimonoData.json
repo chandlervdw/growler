@@ -1,0 +1,747 @@
+{
+  "name": "Greenville Growler Spots",
+  "count": 84,
+  "frequency": "quarterhourly",
+  "nextrun": "Mon Jun 09 2014 15:47:47 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "BeerName": "HeBrew Funky Jewbelation",
+        "api": "Greenville Beer Exchange",
+        "BeerAdvocate": {
+          "href": "http://www.beeradvocate.com/beer/profile/262/115685/?sort=high&start=0",
+          "src": "http://greenvillebeerexchange.com/images/ba.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/hebrew-funky-jewbelation-2014/255614/3/1/",
+          "src": "http://greenvillebeerexchange.com/images/rb.png"
+        }
+      },
+      {
+        "BeerName": "Foothills Torch Pilsner",
+        "api": "Greenville Beer Exchange",
+        "BeerAdvocate": {
+          "href": "http://www.beeradvocate.com/beer/profile/11036/22651/?sort=high&start=0",
+          "src": "http://greenvillebeerexchange.com/images/ba.png"
+        },
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "Cigar City + New Belgium Collaboration",
+        "api": "Greenville Beer Exchange",
+        "BeerAdvocate": {
+          "href": "http://www.beeradvocate.com/beer/profile/192/103310/",
+          "src": "http://greenvillebeerexchange.com/images/ba.png"
+        },
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "Sierra Nevada Harvest Single Hop #291 IPA",
+        "api": "Greenville Beer Exchange",
+        "BeerAdvocate": {
+          "href": "http://www.beeradvocate.com/beer/profile/140/113080/?sort=high&start=0",
+          "src": "http://greenvillebeerexchange.com/images/ba.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/sierra-nevada-harvest-single-hop-ipa-yakima-291/250910/3/1/",
+          "src": "http://greenvillebeerexchange.com/images/rb.png"
+        }
+      },
+      {
+        "BeerName": "Ballast Point Victory at Sea",
+        "api": "Greenville Beer Exchange",
+        "BeerAdvocate": {
+          "href": "http://www.beeradvocate.com/beer/profile/199/48505/?sort=high&start=0",
+          "src": "http://greenvillebeerexchange.com/images/ba.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/ballast-point-victory-at-sea/100542/3/1/",
+          "src": "http://greenvillebeerexchange.com/images/rb.png"
+        }
+      },
+      {
+        "BeerName": "Bells Cherry Stout",
+        "api": "Greenville Beer Exchange",
+        "BeerAdvocate": {
+          "href": "http://beeradvocate.com/beer/profile/287/2511/?sort=high&start=0",
+          "src": "http://greenvillebeerexchange.com/images/ba.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/bells-cherry-stout/3216/3/1/",
+          "src": "http://greenvillebeerexchange.com/images/rb.png"
+        }
+      },
+      {
+        "BeerName": "Coast ToeTally Pale Ale",
+        "api": "Greenville Beer Exchange",
+        "BeerAdvocate": {
+          "href": "http://www.beeradvocate.com/beer/profile/16354/99970/?sort=high&start=0",
+          "src": "http://greenvillebeerexchange.com/images/ba.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/coast-drews-toetally-awesome-pale-ale/255368/",
+          "src": "http://greenvillebeerexchange.com/images/rb.png"
+        }
+      },
+      {
+        "BeerName": "Thirsty Dog Multiplicity",
+        "api": "Greenville Beer Exchange",
+        "BeerAdvocate": {
+          "href": "http://www.beeradvocate.com/beer/profile/12516/114154/",
+          "src": "http://greenvillebeerexchange.com/images/ba.png"
+        },
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "Evil Twin + Crooked Stave Ryan & The Gosling",
+        "api": "Greenville Beer Exchange",
+        "BeerAdvocate": {
+          "href": "http://www.beeradvocate.com/beer/profile/24300/116592/?sort=high&start=0",
+          "src": "http://greenvillebeerexchange.com/images/ba.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/evil-twin--crooked-stave-ryan-and-the-gosling/257189/",
+          "src": "http://greenvillebeerexchange.com/images/rb.png"
+        }
+      },
+      {
+        "BeerName": "Bells Oberon",
+        "api": "Greenville Beer Exchange",
+        "BeerAdvocate": {
+          "href": "http://www.beeradvocate.com/beer/profile/287/1094/?sort=high&start=0",
+          "src": "http://greenvillebeerexchange.com/images/ba.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/bells-oberon-ale/3211/3/1/",
+          "src": "http://greenvillebeerexchange.com/images/rb.png"
+        }
+      },
+      {
+        "BeerName": "Southern Tier 2X Rye",
+        "api": "Greenville Beer Exchange",
+        "BeerAdvocate": {
+          "href": "http://www.beeradvocate.com/beer/profile/3818/98682/?sort=high&start=0",
+          "src": "http://greenvillebeerexchange.com/images/ba.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/southern-tier-2xrye/223917/3/1/",
+          "src": "http://greenvillebeerexchange.com/images/rb.png"
+        }
+      },
+      {
+        "BeerName": "RJ Rockers Strawberry Wheat",
+        "api": "Greenville Beer Exchange",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "New Belgium Wild Squared Dubbel",
+        "api": "Greenville Beer Exchange",
+        "BeerAdvocate": {
+          "href": "http://www.beeradvocate.com/beer/profile/192/103308/?sort=high&start=0",
+          "src": "http://greenvillebeerexchange.com/images/ba.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/new-belgium-lips-of-faith--wild-dubbel/234834/3/1/",
+          "src": "http://greenvillebeerexchange.com/images/rb.png"
+        }
+      },
+      {
+        "BeerName": "Coast Boy King DIPA",
+        "api": "Greenville Beer Exchange",
+        "BeerAdvocate": {
+          "href": "http://www.beeradvocate.com/beer/profile/16354/49151/?sort=high&start=0",
+          "src": "http://greenvillebeerexchange.com/images/ba.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/coast-the-boy-king-double-ipa/102360/3/1/",
+          "src": "http://greenvillebeerexchange.com/images/rb.png"
+        }
+      },
+      {
+        "BeerName": "Rogue 19 Colonies Mead",
+        "api": "Greenville Beer Exchange",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "Quest/Terrapin Tolba",
+        "api": "Greenville Beer Exchange",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "Big Red Ale",
+        "api": "Growler Station"
+      },
+      {
+        "BeerName": "Enjoy by 7-4-14",
+        "api": "Growler Station"
+      },
+      {
+        "BeerName": "Makara",
+        "api": "Growler Station"
+      },
+      {
+        "BeerName": "London Porter",
+        "api": "Growler Station"
+      },
+      {
+        "BeerName": "Elm Street IPA",
+        "api": "Growler Station"
+      },
+      {
+        "BeerName": "Go To IPA",
+        "api": "Growler Station"
+      },
+      {
+        "BeerName": "Good Boy Stout",
+        "api": "Growler Station"
+      },
+      {
+        "BeerName": "Double Columbus",
+        "api": "Growler Station"
+      },
+      {
+        "BeerName": "Sky Blue Golden Ale",
+        "api": "Growler Station"
+      },
+      {
+        "BeerName": "Rare VOS",
+        "api": "Growler Station"
+      },
+      {
+        "BeerName": "Doc's Draft Hard Pear Cider",
+        "api": "Growler Station"
+      },
+      {
+        "BeerName": "Consecrator Doppelbock",
+        "api": "Growler Station"
+      },
+      {
+        "BeerName": "Oarsman Ale",
+        "api": "Growler Station"
+      },
+      {
+        "BeerName": "Smoked Porter w/ Chipotle",
+        "api": "Growler Station"
+      },
+      {
+        "BeerName": "Son of a Peach",
+        "api": "Growler Station"
+      },
+      {
+        "BeerName": "Lost Continent",
+        "api": "Growler Station"
+      },
+      {
+        "BeerName": "Pere Jacques",
+        "api": "Growler Station"
+      },
+      {
+        "BeerName": {
+          "href": "http://beeradvocate.com/beer/profile/24134/78011",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": {
+          "href": "http://beeradvocate.com/beer/profile/24134/78011",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/ba_logo.png"
+        },
+        "RateBeer": {
+          "href": "http://beernews.org/2012/01/westbrook-mexican-cake-imperial-stout-biere-pales-de-linde-farmhouse-ipa-coming-soon/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/rb_logo.png"
+        }
+      },
+      {
+        "BeerName": {
+          "href": "http://beernews.org/2012/01/westbrook-mexican-cake-imperial-stout-biere-pales-de-linde-farmhouse-ipa-coming-soon/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "http://beeradvocate.com/beer/profile/287/1094",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": {
+          "href": "http://beeradvocate.com/beer/profile/287/1094",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/ba_logo.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/bells-oberon-ale/3211/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/rb_logo.png"
+        }
+      },
+      {
+        "BeerName": "Westbrook Mexican Cake Imperial Stout",
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "http://beeradvocate.com/beer/profile/16354/49151",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": {
+          "href": "http://beeradvocate.com/beer/profile/16354/49151",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/ba_logo.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/coast-boy-king-double-ipa/102360/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/rb_logo.png"
+        }
+      },
+      {
+        "BeerName": {
+          "href": "http://www.ratebeer.com/beer/bells-oberon-ale/3211/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "Bell's Oberon Ale",
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "http://beeradvocate.com/beer/profile/287/1093",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": {
+          "href": "http://beeradvocate.com/beer/profile/287/1093",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/ba_logo.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/two-hearted-ale/1502/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/rb_logo.png"
+        }
+      },
+      {
+        "BeerName": {
+          "href": "http://beeradvocate.com/beer/profile/16354/39238",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": {
+          "href": "http://beeradvocate.com/beer/profile/16354/39238",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/ba_logo.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/coast-32-50-kolsch/82109/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/rb_logo.png"
+        }
+      },
+      {
+        "BeerName": {
+          "href": "http://www.ratebeer.com/beer/coast-boy-king-double-ipa/102360/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "Coast Boy King Imperial IPA",
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "http://beeradvocate.com/beer/profile/2454/66770/?ba=PDXHops",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": {
+          "href": "http://beeradvocate.com/beer/profile/2454/66770/?ba=PDXHops",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/ba_logo.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/community-tap-trifecta-ipa/140660/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/rb_logo.png"
+        }
+      },
+      {
+        "BeerName": {
+          "href": "http://beeradvocate.com/beer/profile/1199/7348",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": {
+          "href": "http://beeradvocate.com/beer/profile/1199/7348",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/ba_logo.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/founders-porter/3173/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/rb_logo.png"
+        }
+      },
+      {
+        "BeerName": {
+          "href": "http://www.ratebeer.com/beer/two-hearted-ale/1502/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "Bell's Two Hearted Ale",
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "http://beeradvocate.com/beer/profile/193/64743",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": {
+          "href": "http://beeradvocate.com/beer/profile/193/64743",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/ba_logo.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/anderson-valley-horse-tongue/127315/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/rb_logo.png"
+        }
+      },
+      {
+        "BeerName": {
+          "href": "http://www.ratebeer.com/beer/coast-32-50-kolsch/82109/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "http://beeradvocate.com/beer/profile/1199/23474",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": {
+          "href": "http://beeradvocate.com/beer/profile/1199/23474",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/ba_logo.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/founders-rubaeus/46846/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/rb_logo.png"
+        }
+      },
+      {
+        "BeerName": "Coast 32/50 Kölsch",
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "http://beeradvocate.com/beer/profile/193/99790/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": {
+          "href": "http://beeradvocate.com/beer/profile/193/99790/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/ba_logo.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/anderson-valley-the-kimmie-the-yink-and-the-holy-gose/229359/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/rb_logo.png"
+        }
+      },
+      {
+        "BeerName": {
+          "href": "http://www.ratebeer.com/beer/community-tap-trifecta-ipa/140660/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "http://brewery85.com/beer/quittin-time/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": {
+          "href": "http://brewery85.com/beer/quittin-time/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/ba_logo.png"
+        },
+        "RateBeer": {
+          "href": "http://brewery85.com/beer/quittin-time/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/rb_logo.png"
+        }
+      },
+      {
+        "BeerName": "The Community Tap Trifecta IPA",
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "http://beeradvocate.com/beer/profile/11599/28146/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": {
+          "href": "http://beeradvocate.com/beer/profile/11599/28146/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/ba_logo.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/green-man-esb/34586/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/rb_logo.png"
+        }
+      },
+      {
+        "BeerName": {
+          "href": "http://www.ratebeer.com/beer/founders-porter/3173/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "Founders Porter",
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "http://questbrewing.com/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": {
+          "href": "http://questbrewing.com/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/ba_logo.png"
+        },
+        "RateBeer": {
+          "href": "http://questbrewing.com/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/rb_logo.png"
+        }
+      },
+      {
+        "BeerName": {
+          "href": "http://www.beeradvocate.com/beer/profile/147/36707/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": {
+          "href": "http://www.beeradvocate.com/beer/profile/147/36707/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/ba_logo.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/stone-smoked-porter-with-chipotle-peppers/61219/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/rb_logo.png"
+        }
+      },
+      {
+        "BeerName": {
+          "href": "http://www.ratebeer.com/beer/anderson-valley-horse-tongue/127315/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "Anderson Valley Horse Tongue Wheat (Biere de Garde Aged in White Wine Barrels)",
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": "http://thecommunitytap.com/sites/all/themes/communitytap/images/ba_logo.png",
+        "RateBeer": "http://thecommunitytap.com/sites/all/themes/communitytap/images/rb_logo.png"
+      },
+      {
+        "BeerName": {
+          "href": "http://www.ratebeer.com/beer/founders-rubaeus/46846/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "http://www.beeradvocate.com/beer/profile/158/19216/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": {
+          "href": "http://www.beeradvocate.com/beer/profile/158/19216/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/ba_logo.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/great-divide-oak-aged-yeti-imperial-stout/37652/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/rb_logo.png"
+        }
+      },
+      {
+        "BeerName": "Founders Rübæus",
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "http://www.beeradvocate.com/beer/profile/28/63/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": {
+          "href": "http://www.beeradvocate.com/beer/profile/28/63/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/ba_logo.png"
+        },
+        "RateBeer": {
+          "href": "http://www.ratebeer.com/beer/anchor-steam-beer/46/",
+          "src": "http://thecommunitytap.com/sites/all/themes/communitytap/images/rb_logo.png"
+        }
+      },
+      {
+        "BeerName": {
+          "href": "http://www.ratebeer.com/beer/anderson-valley-the-kimmie-the-yink-and-the-holy-gose/229359/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "Anderson Valley The Kimmie, The Yink & The Holy Gose Ale",
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "http://brewery85.com/beer/quittin-time/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "Brewery 85 Quittin' Time Bock",
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "http://www.ratebeer.com/beer/green-man-esb/34586/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "Green Man ESB",
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "http://questbrewing.com/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "Quest Nitro Milk Stout",
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "http://www.ratebeer.com/beer/stone-smoked-porter-with-chipotle-peppers/61219/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "Stone Smoked Porter w/ Chipotle Peppers",
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "Grand Teton Splashdown Golden Ale",
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "http://www.ratebeer.com/beer/great-divide-oak-aged-yeti-imperial-stout/37652/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "Great Divide Oak-Aged Yeti (2010)",
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": {
+          "href": "http://www.ratebeer.com/beer/anchor-steam-beer/46/",
+          "text": ""
+        },
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      },
+      {
+        "BeerName": "Anchor Steam Beer",
+        "api": "Community Tap",
+        "BeerAdvocate": "",
+        "RateBeer": ""
+      }
+    ]
+  }
+}

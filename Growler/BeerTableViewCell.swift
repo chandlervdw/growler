@@ -42,25 +42,16 @@ class BeerTableViewCell: UITableViewCell {
         return view
         }()
     
-    var minor: Bool {
-    didSet {
-        titleLabel.textColor = minor ? timeLabel.textColor : UIColor(red: 0.227, green: 0.227, blue: 0.278, alpha: 1)
-        circleView.layer.borderColor = minor ? UIColor(red: 0.839, green: 0.847, blue: 0.851, alpha: 1).CGColor : UIColor(red: 0.329, green: 0.831, blue: 0.690, alpha: 1).CGColor
-    }
-    }
-    
     init(style: UITableViewCellStyle, reuseIdentifier: String) {
-        minor = false
+
         
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
         contentView.addSubview(titleLabel)
-        contentView.addSubview(timeLabel)
         contentView.addSubview(lineView)
         contentView.addSubview(circleView)
         
         let views = [
-//            "timeLabel": timeLabel,
             "titleLabel": titleLabel,
             "lineView": lineView,
             "circleView": circleView
@@ -75,7 +66,6 @@ class BeerTableViewCell: UITableViewCell {
         contentView.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("|-(leftMargin)-[lineView(2)]-(lineMargin)-[titleLabel]-|", options: nil, metrics: metrics, views: views))
         contentView.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|-(margin)-[titleLabel]-(margin)-|", options: nil, metrics: metrics, views: views))
         contentView.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|[lineView]|", options: nil, metrics: metrics, views: views))
-        contentView.addConstraint(NSLayoutConstraint(item: titleLabel, attribute: .CenterY, relatedBy: .Equal, toItem: timeLabel, attribute: .CenterY, multiplier: 1, constant: 0))
         contentView.addConstraint(NSLayoutConstraint(item: circleView, attribute: .CenterX, relatedBy: .Equal, toItem: lineView, attribute: .CenterX, multiplier: 1, constant: 0))
         contentView.addConstraint(NSLayoutConstraint(item: circleView, attribute: .CenterY, relatedBy: .Equal, toItem: titleLabel, attribute: .CenterY, multiplier: 1, constant: 0))
         contentView.addConstraint(NSLayoutConstraint(item: circleView, attribute: .Width, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1, constant: 14))

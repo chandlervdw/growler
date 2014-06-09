@@ -10,12 +10,100 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Growler/BusinessTableViewController.swift"
-            timestampString = "423978832.787253"
+            timestampString = "424029574.098089"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
-            landmarkName = "connectionDidFinishLoading(_:)"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Growler/BusinessTableViewController.swift"
+            timestampString = "424038007.189374"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Growler.BusinessTableViewController.tableView (Growler.BusinessTableViewController)(Swift.Optional&lt;ObjectiveC.UITableView&gt;, cellForRowAtIndexPath : Swift.Optional&lt;ObjectiveC.NSIndexPath&gt;) -&gt; Swift.Optional&lt;ObjectiveC.UITableViewCell&gt;"
+                  moduleName = "Growler"
+                  urlString = "file:///Users/chandlervdw/Repos/Growler/Growler/BusinessTableViewController.swift"
+                  timestampString = "424038007.191402"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "1020">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Growler.BusinessTableViewController.tableView (Growler.BusinessTableViewController)(Swift.Optional&lt;ObjectiveC.UITableView&gt;, cellForRowAtIndexPath : Swift.Optional&lt;ObjectiveC.NSIndexPath&gt;) -&gt; Swift.Optional&lt;ObjectiveC.UITableViewCell&gt;"
+                  moduleName = "Growler"
+                  urlString = "file:///Users/chandlervdw/Repos/Growler/Growler/BusinessTableViewController.swift"
+                  timestampString = "424038007.191746"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "4058">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Growler/BusinessTableViewController.swift"
+            timestampString = "424038008.640449"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Growler/BusinessTableViewController.swift"
+            timestampString = "424044753.810195"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "tableView(_:viewForHeaderInSection:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
