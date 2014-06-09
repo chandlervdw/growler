@@ -98,7 +98,7 @@ class BusinessTableViewController: UITableViewController {
         var results: NSDictionary = jsonResult["results"] as NSDictionary
         var collection: NSArray = results["collection1"] as NSArray
         if jsonResult.count>0 && collection.count>0 {
-            self.Business = jsonResult
+            Business = jsonResult
             tableView.reloadData()
         }
     }
